@@ -1,7 +1,7 @@
 # You at on theme for oh-my-zsh
 
-PROMPT='%{$fg_bold[cyan]%}$(whoami) %{$fg_bold[cyan]%}% %{$fg_bold[green]%}at %{$fg_bold[green]%}% %{$fg_bold[yellow]%}$(hostname) %{$fg_bold[yellow]%}% %{$fg_bold[green]%}on%{$fg_bold[green]%}% %p%{$fg_bold[blue]%} %~ $(git_prompt_info)% 
-%{$fg_bold[green]%}↪ %{$fg_bold[green]%}% %{$reset_color%}'
+PROMPT='%{$fg_bold[cyan]%}$(whoami) %{$fg_bold[cyan]%}% %{$fg_bold[blue]%}at %{$fg_bold[blue]%}% %{$fg_bold[yellow]%}$(hostname) %{$fg_bold[yellow]%}% %{$fg_bold[blue]%}on%{$fg_bold[blue]%}% %p%{$fg_bold[green]%} %~ $(git_prompt_info)% 
+%{$fg_bold[blue]%}↪ %{$fg_bold[blue]%}% %{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_CLEAN="] %{$fg_bold[green]%}✔ "
 ZSH_THEME_GIT_PROMPT_DIRTY="] %{$fg_bold[yellow]%}✘ "
